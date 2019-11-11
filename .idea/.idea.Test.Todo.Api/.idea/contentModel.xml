@@ -6,8 +6,7 @@
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="packages" t="ExcludeRecursive" />
-      <e p="Test.Todo.Api" t="IncludeRecursive">
+      <e p="Example.Todo.Api" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -18,21 +17,21 @@
           <e p="BoardRepository.cs" t="Include" />
           <e p="IBoardRepository.cs" t="Include" />
         </e>
-        <e p="Migrations" t="Include">
-          <e p="20191027141637_initial.cs" t="Include" />
-          <e p="20191027141637_initial.Designer.cs" t="Include" />
-          <e p="TodoAppContextModelSnapshot.cs" t="Include" />
-        </e>
-        <e p="Models" t="Include">
+        <e p="Entities" t="Include">
           <e p="Board.cs" t="Include" />
           <e p="Record.cs" t="Include" />
-          <e p="TodoAppContext.cs" t="Include" />
           <e p="User.cs" t="Include" />
+        </e>
+        <e p="Example.Todo.Api.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20191111132551_Initial.cs" t="Include" />
+          <e p="20191111132551_Initial.Designer.cs" t="Include" />
+          <e p="TodoAppContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="Test.Todo.Api.AssemblyInfo.cs" t="Include" />
+              <e p="Example.Todo.Api.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -46,8 +45,9 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="Test.Todo.Api.csproj" t="IncludeRecursive" />
+        <e p="TodoAppContext.cs" t="Include" />
       </e>
+      <e p="packages" t="ExcludeRecursive" />
       <e p="Test.Todo.Api.sln" t="IncludeFlat" />
     </e>
   </component>

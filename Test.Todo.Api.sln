@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Todo.Api", "Test.Todo.Api\Test.Todo.Api.csproj", "{8C41E383-B2E4-449B-A81D-2F0727CB8EAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Todo.Api", "Example.Todo.Api\Example.Todo.Api.csproj", "{8C41E383-B2E4-449B-A81D-2F0727CB8EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
