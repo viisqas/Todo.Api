@@ -1,4 +1,7 @@
-$HEADER$namespace $NAMESPACE$
+namespace Test.Todo.Api.Controllers
 {
-  public class $CLASS$ {$END$}
+	public class UserController
+	{
+		
+	}
 }

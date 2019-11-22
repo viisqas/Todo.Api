@@ -12,10 +12,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="BoardController.cs" t="Include" />
-        </e>
-        <e p="Database" t="Include">
-          <e p="BoardRepository.cs" t="Include" />
-          <e p="IBoardRepository.cs" t="Include" />
+          <e p="RecordController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
         </e>
         <e p="Entities" t="Include">
           <e p="Board.cs" t="Include" />
@@ -43,6 +41,10 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="BoardRepository.cs" t="Include" />
+          <e p="IBoardRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="TodoAppContext.cs" t="Include" />
