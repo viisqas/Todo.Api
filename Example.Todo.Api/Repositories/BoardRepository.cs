@@ -1,11 +1,10 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Example.Todo.Api.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Example.Todo.Api.Database
+namespace Test.Todo.Api.Repositories
 {
 	public class BoardRepository : IBoardRepository
 	{
@@ -25,7 +24,7 @@ namespace Example.Todo.Api.Database
 		public async Task<ICollection<Board>> GetUsersBoards(int userId)
 		{
 			var boards = await _db.Boards
-				.Where(b => b.Creator.Id == userId)
+				.Where(b => b.CreatorId == userId)
 				.ToListAsync();
 			
 			return boards;
@@ -60,8 +59,10 @@ namespace Example.Todo.Api.Database
 				.Where(b => b.Id == board.Id && b.CreatorId == board.CreatorId)
 				.FirstOrDefaultAsync();
 			
-			srcBoard.Name = board.Name;
-			srcBoard.Description = board.Description;
+			if(board.Name != null)
+				srcBoard.Name = board.Name;
+			if (board.Description != null)
+				srcBoard.Description = board.Description;
 
 			await _db.SaveChangesAsync();
 			

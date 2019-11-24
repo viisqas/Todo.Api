@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Example.Todo.Api.Entities;
 
-namespace Example.Todo.Api.Database
+namespace Test.Todo.Api.Repositories
 {
 	public interface IBoardRepository
 	{
