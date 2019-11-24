@@ -36,9 +36,12 @@ namespace Test.Todo.Api.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("CreatorId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Boards");
                 });
@@ -49,6 +52,9 @@ namespace Test.Todo.Api.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<int>("BoardId")
+                        .HasColumnType("integer");
 
                     b.Property<DateTimeOffset>("CreationDate")
                         .HasColumnType("timestamp with time zone");
@@ -68,7 +74,7 @@ namespace Test.Todo.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CreatorId");
+                    b.HasIndex("BoardId");
 
                     b.ToTable("Records");
                 });
@@ -90,18 +96,16 @@ namespace Test.Todo.Api.Migrations
 
             modelBuilder.Entity("Example.Todo.Api.Entities.Board", b =>
                 {
-                    b.HasOne("Example.Todo.Api.Entities.User", "Creator")
+                    b.HasOne("Example.Todo.Api.Entities.User", null)
                         .WithMany("UserBoards")
-                        .HasForeignKey("CreatorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Example.Todo.Api.Entities.Record", b =>
                 {
-                    b.HasOne("Example.Todo.Api.Entities.User", "Creator")
-                        .WithMany()
-                        .HasForeignKey("CreatorId")
+                    b.HasOne("Example.Todo.Api.Entities.Board", null)
+                        .WithMany("Records")
+                        .HasForeignKey("BoardId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
