@@ -1,16 +1,13 @@
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Example.Todo.Api.Database;
 using Example.Todo.Api.Entities;
-using Newtonsoft.Json;
+using Test.Todo.Api.Repositories;
 
 namespace Test.Todo.Api.Controllers
 {
 	[ApiController]
-	[Route("boards")]
+	[Route("api")]
 	public class BoardController : Controller
 	{
 		private readonly IBoardRepository _boardRepository;
@@ -20,48 +17,79 @@ namespace Test.Todo.Api.Controllers
 			_boardRepository = boardRepository;
 		}
 
-		// test method
+		/// <summary>
+		/// Returns all existing boards in the database (test method)
+		/// </summary>
 		[HttpGet]
-		public async Task<ICollection<Board>> GetAllBoards()
+		public async Task<ActionResult> GetAllBoards()
 		{
 			var boards = await _boardRepository.GetAllBoards();
-			return boards;
+
+			if (boards == null)
+				return NotFound();
+			
+			return Ok(boards);
 		}
 
-		[HttpGet("user={userId}")]
-		public async Task<ICollection<Board>> GetUsersBoards(int userId)
+		/// <summary>
+		/// Returns all boards belonging to a specific user
+		/// </summary>
+		[HttpGet("user={userId}/boards")]
+		public async Task<ActionResult> GetUsersBoards(int userId)
 		{
 			var boards = await _boardRepository.GetUsersBoards(userId);
-			return boards;
+
+			if (boards == null)
+				return NotFound();
+
+			return Ok(boards);
 		}
 
-		[HttpGet("user={userId}/board={boardId}")]
-		public async Task<Board> GetUsersBoardById(int userId, int boardId)
+		/// <summary>
+		/// Returns one specific board belonging to a specific user
+		/// </summary>
+		[HttpGet("user={userId}/boards/{boardId}")]
+		public async Task<ActionResult> GetUsersBoardById(int userId, int boardId)
 		{
 			var board = await _boardRepository.GetUsersBoardById(userId, boardId);
-			return board;
+
+			if (board == null)
+				return NotFound();
+			
+			return Ok(board);
 		}
 
-		[HttpPost("addBoard")]
-		public async Task<Board> CreateBoard([FromBody]Board board)
+		/// <summary>
+		/// Create board
+		/// </summary>
+		[HttpPost("createBoard")]
+		public async Task<ActionResult> CreateBoard([FromBody]Board board)
 		{
 			var newBoard = await _boardRepository.AddBoard(board);
-			return newBoard;
+			
+			return Ok(newBoard);
 		}
 
-		[HttpPatch("update")]
-		public async Task<Board> UpdateBoard2([FromBody]Board board)
+		/// <summary>
+		/// Update specific board (description or name)
+		/// </summary>
+		[HttpPatch("updateBoard")]
+		public async Task<ActionResult> UpdateBoard([FromBody]Board board) //only with userId
 		{
 			var newBoard = await _boardRepository.UpdateBoard(board);
-			return newBoard;
+			
+			return Ok(newBoard);
 		}
 
-		[HttpDelete("user={userId}/board={boardId}")]
+		/// <summary>
+		/// Delete a specific board
+		/// </summary>
+		[HttpDelete("user={userId}/boards/{boardId}")]
 		public async Task<ActionResult> DeleteBoard(int boardId, int userId)
 		{
 			await _boardRepository.DeleteBoard(boardId, userId);
 
-			return Ok();
+			return Ok("board deleted successfully");
 		}
 	}
 }
