@@ -2,7 +2,7 @@ using System;
 
 namespace Test.Todo.Api.DTOs
 {
-	public class RecordEditingDto
+	public class RecordDTO
 	{
 		public int RecordId { get; set; }
 		
