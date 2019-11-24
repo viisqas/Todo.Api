@@ -6,7 +6,32 @@
     <members>
         <member name="M:Test.Todo.Api.Controllers.BoardController.GetAllBoards">
             <summary>
-            Deletes a specific TodoItem.
+            Returns all existing boards in the database (test method)
+            </summary>
+        </member>
+        <member name="M:Test.Todo.Api.Controllers.BoardController.GetUsersBoards(System.Int32)">
+            <summary>
+            Returns all boards belonging to a specific user
+            </summary>
+        </member>
+        <member name="M:Test.Todo.Api.Controllers.BoardController.GetUsersBoardById(System.Int32,System.Int32)">
+            <summary>
+            Returns one specific board belonging to a specific user
+            </summary>
+        </member>
+        <member name="M:Test.Todo.Api.Controllers.BoardController.CreateBoard(Example.Todo.Api.Entities.Board)">
+            <summary>
+            Create board
+            </summary>
+        </member>
+        <member name="M:Test.Todo.Api.Controllers.BoardController.UpdateBoard(Example.Todo.Api.Entities.Board)">
+            <summary>
+            Update specific board (description or name)
+            </summary>
+        </member>
+        <member name="M:Test.Todo.Api.Controllers.BoardController.DeleteBoard(System.Int32,System.Int32)">
+            <summary>
+            Delete a specific board
             </summary>
         </member>
     </members>

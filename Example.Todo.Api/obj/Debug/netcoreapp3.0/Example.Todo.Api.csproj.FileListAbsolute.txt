@@ -34,3 +34,17 @@
 /Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.pdb
 /Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.Views.dll
 /Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.Views.pdb
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Castle.Core.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Moq.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Microsoft.Extensions.DependencyModel.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Microsoft.OpenApi.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Newtonsoft.Json.Bson.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.MvcApplicationPartsAssemblyInfo.cs
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.xml
+/Users/visqas/RiderProjects/Test.Todo.Api/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.xml
