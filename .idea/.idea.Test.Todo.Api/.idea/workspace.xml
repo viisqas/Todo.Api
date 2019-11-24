@@ -25,25 +25,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cfcc2b1-8d51-41e2-bf5e-97a7bfbd6ae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Example.Todo.Api/Controllers/RecordController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example.Todo.Api/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/BoardRepositoryTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test.Todo.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test.Todo.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test.Todo.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test.Todo.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/Controllers/BoardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/Controllers/BoardController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/Database/BoardRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/Repositories/BoardRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/Database/IBoardRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/Repositories/IBoardRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/bin/Debug/netcoreapp3.0/Example.Todo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/Debug/netcoreapp3.0/Example.Todo.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/Example.Todo.Api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/Example.Todo.Api.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/Example.Todo.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/Example.Todo.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/Example.Todo.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/Example.Todo.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example.Todo.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Example.Todo.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test.Todo.Api/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test.Todo.Api/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.Todo.Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Test.Todo.Api.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/BoardControllerTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/UnitTests.Todo.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/UnitTests.Todo.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/UnitTests.Todo.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/UnitTests.Todo.Api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/UnitTests.Todo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/UnitTests.Todo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/UnitTests.Todo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/bin/Debug/netcoreapp3.0/UnitTests.Todo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/Debug/netcoreapp3.0/UnitTests.Todo.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/UnitTests.Todo.Api.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests.Todo.Api/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,47 +62,40 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <option name="HIDDEN_KINDS">
-      <set />
+      <set>
+        <option value="access-method" />
+        <option value="aggregate" />
+        <option value="argument" />
+        <option value="check" />
+        <option value="collation" />
+        <option value="column" />
+        <option value="database" />
+        <option value="extension" />
+        <option value="foreign-data-wrapper" />
+        <option value="foreign-key" />
+        <option value="foreign-table" />
+        <option value="index" />
+        <option value="key" />
+        <option value="materialized-view" />
+        <option value="object-attribute" />
+        <option value="object-type" />
+        <option value="operator" />
+        <option value="role" />
+        <option value="routine" />
+        <option value="rule" />
+        <option value="schema" />
+        <option value="sequence" />
+        <option value="server" />
+        <option value="table" />
+        <option value="trigger" />
+        <option value="user-mapping" />
+        <option value="view" />
+      </set>
     </option>
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="todoappdb@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="todoappdb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="todoappdb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="todoappdb: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="todoappdb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="todoappdb: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="todoappdb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="todoappdb: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="todoappdb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="todoappdb: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -114,24 +109,33 @@
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Repositories/BoardRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C34D92CF-0375-4665-9D3D-BD7DD359F0E5/05/d5e1c673/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F7983DF-5846-436F-8E9C-B779867785C7/e3/26ba3517/InternalDbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/bc/bbded823/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Pages/Board/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/ad/ec7adb7d/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/a4/6c918b2e/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Controllers/BoardController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Entities/Record.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Entities/Board.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B9C5BD74-CC2C-4F28-BBAA-29643F0B8BE7/72/85fbe916/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32ED1922-B3C5-4F4D-B529-ABD52D521EBF/53/326cae80/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Example.Todo.Api/TodoAppContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/85/f97fa264/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Controllers/RecordController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Migrations/TodoAppContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C34D92CF-0375-4665-9D3D-BD7DD359F0E5/77/214dcb53/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C34D92CF-0375-4665-9D3D-BD7DD359F0E5/9d/e931ee12/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7AE4F9F8-FBB2-4D46-B1F8-FD5963AEA9EA/99/81b4868e/Expression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/15/d6061ed2/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/e6/e0e2d03c/AwaitTaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/DTOs/RecordDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/bc/bbded823/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/ad/ec7adb7d/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/a4/6c918b2e/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitTests.Todo.Api/BoardRepositoryTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B9C5BD74-CC2C-4F28-BBAA-29643F0B8BE7/72/85fbe916/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32ED1922-B3C5-4F4D-B529-ABD52D521EBF/53/326cae80/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/5f/87f8ca2a/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Controllers/RecordController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Repositories/RecordRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Repositories/IRecordRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Example.Todo.Api/Migrations/TodoAppContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,21 +152,32 @@
         <option value="$PROJECT_DIR$/Test.Todo.Api/Controllers/BoardController.cs" />
         <option value="$PROJECT_DIR$/Test.Todo.Api/Database/BoardRepository.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Entities/User.cs" />
-        <option value="$PROJECT_DIR$/Example.Todo.Api/Entities/Record.cs" />
-        <option value="$PROJECT_DIR$/Example.Todo.Api/Entities/Board.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Migrations/TodoAppContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Migrations/20191027141637_initial.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/TodoAppContext.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Database/BoardRepository.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Database/IBoardRepository.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Extension/ICurrentUser.cs" />
-        <option value="$PROJECT_DIR$/Example.Todo.Api/Controllers/RecordController.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Controllers/UserController.cs" />
-        <option value="$PROJECT_DIR$/Example.Todo.Api/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/Example.Todo.Api/Startup.cs" />
-        <option value="$PROJECT_DIR$/Example.Todo.Api/Controllers/BoardController.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Repositories/Board/IBoardRepository.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Repositories/IBoardRepository.cs" />
+        <option value="$PROJECT_DIR$/UnitTests.Todo.Api/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/UnitTests.Todo.Api/BoardControllerTest.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/DTOs/EditingRecordDTO.cs" />
         <option value="$PROJECT_DIR$/Example.Todo.Api/Repositories/BoardRepository.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/DTOs/RecordEditingDTO.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Entities/Board.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Entities/Record.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Example.Todo.Api.csproj" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Controllers/BoardController.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/DTOs/RecordDto.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/DTOs/RecordDTO.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Repositories/IRecordRepository.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Repositories/RecordRepository.cs" />
+        <option value="$PROJECT_DIR$/Example.Todo.Api/Controllers/RecordController.cs" />
+        <option value="$PROJECT_DIR$/UnitTests.Todo.Api/BoardRepositoryTest.cs" />
       </list>
     </option>
   </component>
@@ -243,7 +258,11 @@
       <workItem from="1574258495992" duration="341000" />
       <workItem from="1574322479315" duration="353000" />
       <workItem from="1574326010061" duration="6437000" />
-      <workItem from="1574408151348" duration="4422000" />
+      <workItem from="1574408151348" duration="5892000" />
+      <workItem from="1574444556975" duration="1559000" />
+      <workItem from="1574522320908" duration="122000" />
+      <workItem from="1574524789925" duration="1997000" />
+      <workItem from="1574601122311" duration="11859000" />
     </task>
     <servers />
   </component>
