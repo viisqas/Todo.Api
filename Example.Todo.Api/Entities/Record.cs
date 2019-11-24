@@ -14,8 +14,9 @@ namespace Example.Todo.Api.Entities
 		public string Description { get; set; }
        
 		[Required]
-		public virtual User Creator { get; set; }
-       
+		[ForeignKey("BoardId")]
+		public int BoardId { get; set; }
+		
 		[ForeignKey("CreatorId")]
 		public int CreatorId { get; set; }
        
@@ -23,5 +24,7 @@ namespace Example.Todo.Api.Entities
 		public DateTimeOffset CreationDate { get; set; }
        
 		public DateTimeOffset EndDate { get; set; }
+		
+		// implementer
 	}
 }
