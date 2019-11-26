@@ -10,6 +10,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Test.Todo.Api.Repositories;
 using Microsoft.OpenApi.Models;
+using Test.Todo.Api.Settings;
+using AutoMapper;
 
 namespace Test.Todo.Api
 {
@@ -49,12 +51,15 @@ namespace Test.Todo.Api
 				app.UseDeveloperExceptionPage();
 			}
 
+			var swaggerOptions = new SwaggerOptions();
+			Configuration.GetSection("Swagger").Bind(swaggerOptions);
+			
 			app.UseSwagger();
 
 			app.UseSwaggerUI(c =>
 			{
-				c.SwaggerEndpoint("/swagger/v1/swagger.json", "Todo API V1");
-				c.RoutePrefix = string.Empty; // https://localhost:5001/index.html
+				c.SwaggerEndpoint(swaggerOptions.JsonRoute, swaggerOptions.Description);
+				c.RoutePrefix = string.Empty;
 			});
 			
 			app.UseHttpsRedirection();
